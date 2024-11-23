@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileHandler {
 
-    private final static String BASE_PATH = "/Users/macbookair/Desktop/Program/File-Handler/File";
+    private final static String BASE_PATH = "File/";
 
     public String writeFile(String fileName, String fileContent) {
         try (FileWriter fw = new FileWriter(BASE_PATH + fileName + ".txt")) {
