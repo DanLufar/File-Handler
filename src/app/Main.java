@@ -1,7 +1,7 @@
 package app;
 
 public class Main {
-    private final static String BASE_PATH = "/Users/macbookair/Desktop/Program/File-Handler/File";
+    private final static String BASE_PATH = "File/";
 
     public static void main(String[] args) {
 
